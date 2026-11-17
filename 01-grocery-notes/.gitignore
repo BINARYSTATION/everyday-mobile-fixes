@@ -1,0 +1,17 @@
+# Build output
+*.iml
+.gradle/
+build/
+captures/
+local.properties
+
+# Secrets - also blocked by ~/.gitignore_global, kept here so the repo is safe on any machine
+*.jks
+*.keystore
+keystore.properties
+.env
+
+# IDE
+.idea/
+.DS_Store
+.kotlin/

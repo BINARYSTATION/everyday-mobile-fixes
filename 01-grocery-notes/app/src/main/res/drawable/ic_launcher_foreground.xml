@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A small checklist card with three green lines, inside the 66dp safe zone of the 108dp adaptive icon. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFE8F0EA"
+        android:pathData="M38,32 L70,32 Q74,32 74,36 L74,72 Q74,76 70,76 L38,76 Q34,76 34,72 L34,36 Q34,32 38,32 Z" />
+    <path
+        android:fillColor="#FF7CD992"
+        android:pathData="M40,42 L68,42 L68,46 L40,46 Z M40,52 L68,52 L68,56 L40,56 Z M40,62 L58,62 L58,66 L40,66 Z" />
+</vector>

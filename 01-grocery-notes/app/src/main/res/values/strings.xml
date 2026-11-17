@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Grocery Notes</string>
+    <string name="title">Grocery Notes</string>
+    <string name="hint">Type a note on a row, then delete a row above it.</string>
+
+    <string name="mode_before">BEFORE</string>
+    <string name="mode_after">AFTER</string>
+    <string name="mode_before_detail">no key</string>
+    <string name="mode_after_detail">key = { it.id }</string>
+
+    <string name="note_placeholder">Add a note</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_reset">Reset</string>
+</resources>

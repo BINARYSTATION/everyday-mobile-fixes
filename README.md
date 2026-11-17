@@ -12,7 +12,7 @@ Every folder is one small app with:
 
 | # | Problem | Platform | Folder |
 |---|---------|----------|--------|
-| 01 | Deleting a list row moves its note to the next row | Android (Jetpack Compose) | coming soon |
+| 01 | Deleting a list row moves its note to the next row | Android (Jetpack Compose) | [01-grocery-notes](01-grocery-notes) |
 
 ## Stack
 
