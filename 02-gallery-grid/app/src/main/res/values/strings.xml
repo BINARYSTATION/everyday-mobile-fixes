@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gallery Grid</string>
+    <string name="title">Gallery Grid</string>
+
+    <string name="mode_before">BEFORE</string>
+    <string name="mode_after">AFTER</string>
+    <string name="mode_before_detail">full-size decode</string>
+    <string name="mode_after_detail">inSampleSize</string>
+
+    <string name="memory_label">Bitmap memory</string>
+    <string name="memory_scale">Bar scale: 600 MB</string>
+    <string name="drawing_photos">Drawing test photos %1$d of %2$d</string>
+    <string name="decoded_count">%1$d of %2$d photos decoded</string>
+    <string name="action_reload">Reload</string>
+</resources>
