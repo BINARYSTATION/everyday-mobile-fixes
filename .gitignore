@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Build output
+build/
+.gradle/
+.kotlin/
+captures/
+local.properties
+
+# Secrets
+*.jks
+*.keystore
+keystore.properties
+.env
+
+# Per-post media and drafts stay local
+*/post/
