@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		007CF899DBF923429F761AFB /* ChatModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0082776F298D13005AC880 /* ChatModelTests.swift */; };
+		135500CBA41D95000536A5E8 /* ReplyBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AA861EA7A17B1BA1254F10 /* ReplyBarApp.swift */; };
+		764C5D2EFA7B39C58E5D4D89 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672419F42464843530B87984 /* ChatModel.swift */; };
+		848B1E3E6B9CB7E356F47DBF /* ReplyScreenBefore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F689DCE4B26992A2F994748 /* ReplyScreenBefore.swift */; };
+		86AE28EC6EC138D0118046D7 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6F06FFECF17E703303E884 /* Message.swift */; };
+		8BD7FDC5AD756603A0D768C3 /* ReplyBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A9A5586403F0F664E2F46 /* ReplyBarView.swift */; };
+		A6A693C9B60BF0D2298D746C /* ReplyScreenAfter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC37F9E70B566AF76BE2769 /* ReplyScreenAfter.swift */; };
+		B60D9C86494952FF0BDA5927 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5326ABABAF324D8EAED6EFE /* ContentView.swift */; };
+		D9B4FC38D97525CCA3AE5202 /* KeyboardCoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2996AA01A45593D082E75 /* KeyboardCoverTests.swift */; };
+		E46D87699198963FDC91D219 /* MessageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20B4CEFF0547A5CBD6AE1A3 /* MessageList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		216C855CC5AC9A6245E40555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72A5F65D35050D79749FFC33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69A5DAE82AC0824A28F6FABC;
+			remoteInfo = ReplyBar;
+		};
+		3957E7FDB6031C5EF65D6974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72A5F65D35050D79749FFC33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69A5DAE82AC0824A28F6FABC;
+			remoteInfo = ReplyBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F689DCE4B26992A2F994748 /* ReplyScreenBefore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyScreenBefore.swift; sourceTree = "<group>"; };
+		34AA861EA7A17B1BA1254F10 /* ReplyBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyBarApp.swift; sourceTree = "<group>"; };
+		461A9A5586403F0F664E2F46 /* ReplyBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyBarView.swift; sourceTree = "<group>"; };
+		4E6F06FFECF17E703303E884 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		62032BF0BE68E940C7B79EE5 /* ReplyBarTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ReplyBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		672419F42464843530B87984 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		6BC37F9E70B566AF76BE2769 /* ReplyScreenAfter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyScreenAfter.swift; sourceTree = "<group>"; };
+		9BF2996AA01A45593D082E75 /* KeyboardCoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardCoverTests.swift; sourceTree = "<group>"; };
+		A6BC339C6A6C72BCE90BD2C5 /* ReplyBar.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ReplyBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA56E3B79923B116C55445B6 /* ReplyBarUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ReplyBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5326ABABAF324D8EAED6EFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE0082776F298D13005AC880 /* ChatModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModelTests.swift; sourceTree = "<group>"; };
+		F20B4CEFF0547A5CBD6AE1A3 /* MessageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2F2C923B9003EBB37A349EC2 /* ReplyBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE0082776F298D13005AC880 /* ChatModelTests.swift */,
+			);
+			path = ReplyBarTests;
+			sourceTree = "<group>";
+		};
+		7066B4BF384FCC747E254C28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC339C6A6C72BCE90BD2C5 /* ReplyBar.app */,
+				62032BF0BE68E940C7B79EE5 /* ReplyBarTests.xctest */,
+				AA56E3B79923B116C55445B6 /* ReplyBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0CC353C551CD21B89CE8334 /* ReplyBar */ = {
+			isa = PBXGroup;
+			children = (
+				672419F42464843530B87984 /* ChatModel.swift */,
+				C5326ABABAF324D8EAED6EFE /* ContentView.swift */,
+				4E6F06FFECF17E703303E884 /* Message.swift */,
+				F20B4CEFF0547A5CBD6AE1A3 /* MessageList.swift */,
+				34AA861EA7A17B1BA1254F10 /* ReplyBarApp.swift */,
+				461A9A5586403F0F664E2F46 /* ReplyBarView.swift */,
+				6BC37F9E70B566AF76BE2769 /* ReplyScreenAfter.swift */,
+				2F689DCE4B26992A2F994748 /* ReplyScreenBefore.swift */,
+			);
+			path = ReplyBar;
+			sourceTree = "<group>";
+		};
+		CD99BD150365BF82478D6F80 = {
+			isa = PBXGroup;
+			children = (
+				B0CC353C551CD21B89CE8334 /* ReplyBar */,
+				2F2C923B9003EBB37A349EC2 /* ReplyBarTests */,
+				EF643D57B1AAAA7BDD3ABF54 /* ReplyBarUITests */,
+				7066B4BF384FCC747E254C28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF643D57B1AAAA7BDD3ABF54 /* ReplyBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BF2996AA01A45593D082E75 /* KeyboardCoverTests.swift */,
+			);
+			path = ReplyBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		292B55FE8252AE5B6528A877 /* ReplyBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08F123192C7FB4E908B372BC /* Build configuration list for PBXNativeTarget "ReplyBarTests" */;
+			buildPhases = (
+				2CC5AFF021EC5E71EF22DD65 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79B8F274D7DC4AD813AFB549 /* PBXTargetDependency */,
+			);
+			name = ReplyBarTests;
+			packageProductDependencies = (
+			);
+			productName = ReplyBarTests;
+			productReference = 62032BF0BE68E940C7B79EE5 /* ReplyBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69A5DAE82AC0824A28F6FABC /* ReplyBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CB8D55739B53A01436899DE /* Build configuration list for PBXNativeTarget "ReplyBar" */;
+			buildPhases = (
+				3EF8993142BE086F00A99A5F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReplyBar;
+			packageProductDependencies = (
+			);
+			productName = ReplyBar;
+			productReference = A6BC339C6A6C72BCE90BD2C5 /* ReplyBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F742921E2EEEA4690C7F9924 /* ReplyBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E25BA7E55D462E7E54968BC /* Build configuration list for PBXNativeTarget "ReplyBarUITests" */;
+			buildPhases = (
+				B5A16DA20836CD0B7646FD83 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C92C2990703EA1836CF6EFCC /* PBXTargetDependency */,
+			);
+			name = ReplyBarUITests;
+			packageProductDependencies = (
+			);
+			productName = ReplyBarUITests;
+			productReference = AA56E3B79923B116C55445B6 /* ReplyBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72A5F65D35050D79749FFC33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F742921E2EEEA4690C7F9924 = {
+						TestTargetID = 69A5DAE82AC0824A28F6FABC;
+					};
+				};
+			};
+			buildConfigurationList = DC9C2F6605E64AF736268F8B /* Build configuration list for PBXProject "ReplyBar" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CD99BD150365BF82478D6F80;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7066B4BF384FCC747E254C28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69A5DAE82AC0824A28F6FABC /* ReplyBar */,
+				292B55FE8252AE5B6528A877 /* ReplyBarTests */,
+				F742921E2EEEA4690C7F9924 /* ReplyBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CC5AFF021EC5E71EF22DD65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007CF899DBF923429F761AFB /* ChatModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF8993142BE086F00A99A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764C5D2EFA7B39C58E5D4D89 /* ChatModel.swift in Sources */,
+				B60D9C86494952FF0BDA5927 /* ContentView.swift in Sources */,
+				86AE28EC6EC138D0118046D7 /* Message.swift in Sources */,
+				E46D87699198963FDC91D219 /* MessageList.swift in Sources */,
+				135500CBA41D95000536A5E8 /* ReplyBarApp.swift in Sources */,
+				8BD7FDC5AD756603A0D768C3 /* ReplyBarView.swift in Sources */,
+				A6A693C9B60BF0D2298D746C /* ReplyScreenAfter.swift in Sources */,
+				848B1E3E6B9CB7E356F47DBF /* ReplyScreenBefore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A16DA20836CD0B7646FD83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B4FC38D97525CCA3AE5202 /* KeyboardCoverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79B8F274D7DC4AD813AFB549 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69A5DAE82AC0824A28F6FABC /* ReplyBar */;
+			targetProxy = 3957E7FDB6031C5EF65D6974 /* PBXContainerItemProxy */;
+		};
+		C92C2990703EA1836CF6EFCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69A5DAE82AC0824A28F6FABC /* ReplyBar */;
+			targetProxy = 216C855CC5AC9A6245E40555 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		177C36AE63FFEFC6F0C9AF1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.binarystation.replybar.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReplyBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReplyBar";
+			};
+			name = Release;
+		};
+		1A6DBB9DF0706BFE2C758FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = "Reply Bar";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.binarystation.replybar;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3316C2E89913CBB87E7CDD4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		3A447726B0512554F9F76D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.binarystation.replybar.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReplyBar;
+			};
+			name = Release;
+		};
+		412719DE4ED52770D88BA3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.binarystation.replybar.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReplyBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReplyBar";
+			};
+			name = Debug;
+		};
+		68779E27FFA4F4B96AA0BCF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.binarystation.replybar.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReplyBar;
+			};
+			name = Debug;
+		};
+		8F82EB58547A40B6AD060BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		E355A0E2BCAE637CDF88A288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = "Reply Bar";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.binarystation.replybar;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08F123192C7FB4E908B372BC /* Build configuration list for PBXNativeTarget "ReplyBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412719DE4ED52770D88BA3C5 /* Debug */,
+				177C36AE63FFEFC6F0C9AF1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0E25BA7E55D462E7E54968BC /* Build configuration list for PBXNativeTarget "ReplyBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68779E27FFA4F4B96AA0BCF2 /* Debug */,
+				3A447726B0512554F9F76D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1CB8D55739B53A01436899DE /* Build configuration list for PBXNativeTarget "ReplyBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E355A0E2BCAE637CDF88A288 /* Debug */,
+				1A6DBB9DF0706BFE2C758FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DC9C2F6605E64AF736268F8B /* Build configuration list for PBXProject "ReplyBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F82EB58547A40B6AD060BB1 /* Debug */,
+				3316C2E89913CBB87E7CDD4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72A5F65D35050D79749FFC33 /* Project object */;
+}

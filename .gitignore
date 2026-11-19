@@ -6,6 +6,10 @@
 .vscode/
 *.iml
 
+# Xcode user data
+xcuserdata/
+DerivedData/
+
 # Build output
 build/
 .gradle/
