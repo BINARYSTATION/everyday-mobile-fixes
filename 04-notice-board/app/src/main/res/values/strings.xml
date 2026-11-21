@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notice Board</string>
+    <string name="title">Notice Board</string>
+    <string name="society">Sunrise Heights Society</string>
+
+    <string name="mode_before">BEFORE</string>
+    <string name="mode_after">AFTER</string>
+    <string name="mode_before_detail">plain click</string>
+    <string name="mode_after_detail">dropUnlessResumed</string>
+
+    <string name="back_stack">Back stack: %1$d</string>
+    <string name="action_up">Back</string>
+    <string name="posted_by">Posted by %1$s</string>
+</resources>

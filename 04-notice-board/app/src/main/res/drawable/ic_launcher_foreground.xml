@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A small paper notice with a pin, inside the 66dp safe zone of the 108dp adaptive icon. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFF4EBD9"
+        android:pathData="M36,32 L72,32 Q76,32 76,36 L76,72 Q76,76 72,76 L36,76 Q32,76 32,72 L32,36 Q32,32 36,32 Z" />
+    <path
+        android:fillColor="#FFC9BFA8"
+        android:pathData="M39,48 L69,48 L69,51 L39,51 Z M39,56 L69,56 L69,59 L39,59 Z M39,64 L58,64 L58,67 L39,67 Z" />
+    <path
+        android:fillColor="#FFFFC857"
+        android:pathData="M54,34 A5,5 0 1 1 53.99,34 Z" />
+</vector>
