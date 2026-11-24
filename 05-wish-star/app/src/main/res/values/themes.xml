@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Compose does the real styling. This only colors the window before Compose starts,
+         so the first frame is already dark instead of a white flash. Keep the color equal to
+         WishColors.Night in WishTheme.kt. -->
+    <style name="Theme.WishStar" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#FF0A0E24</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

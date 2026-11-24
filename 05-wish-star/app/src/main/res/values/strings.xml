@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wish Star</string>
+    <string name="title">Make a wish</string>
+    <string name="subtitle">One star per tap</string>
+    <string name="hint">Tap the circle to make a wish.</string>
+    <string name="sent">Wish sent.\nDelivery: 3-5 business days.</string>
+    <string name="action_wish">Make a wish</string>
+</resources>
