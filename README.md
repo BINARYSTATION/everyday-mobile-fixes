@@ -19,6 +19,7 @@ Some folders show a brand-new API in a small demo instead of a fix; the table sa
 | 03 | One SwiftUI modifier hides the Send button behind the keyboard | iOS (SwiftUI) | [03-reply-bar](03-reply-bar) |
 | 04 | A fast double tap on a list row opens the same detail screen twice | Android (Jetpack Compose, Navigation 3) | [04-notice-board](04-notice-board) |
 | 05 | New API demo: a circle morphs into a star while the sky blurs (PolygonShape, progressive blur) | Android (Jetpack Compose 1.13) | [05-wish-star](05-wish-star) |
+| 06 | Spot the bug: an autosave runs every 5 s but always saves the first, empty text (LaunchedEffect, rememberUpdatedState) | Android (Jetpack Compose) | [06-draft-saver](06-draft-saver) |
 
 ## Stack
 

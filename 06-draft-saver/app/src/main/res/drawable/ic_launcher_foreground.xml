@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A cream postcard with a gold stamp, inside the 66dp safe zone of the 108dp adaptive icon. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFF4EBD9"
+        android:pathData="M32,38 L76,38 L76,70 L32,70 Z" />
+    <path
+        android:fillColor="#FFFFC857"
+        android:pathData="M64,42 L72,42 L72,51 L64,51 Z" />
+    <path
+        android:fillColor="#FF16130F"
+        android:pathData="M37,56 L58,56 L58,58 L37,58 Z M37,62 L54,62 L54,64 L37,64 Z" />
+</vector>

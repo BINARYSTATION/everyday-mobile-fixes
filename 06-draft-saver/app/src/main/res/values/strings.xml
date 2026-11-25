@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Draft Saver</string>
+    <string name="title">Postcard draft</string>
+    <string name="subtitle">Autosaves every 5 seconds</string>
+    <string name="mode_before">BEFORE: plain capture</string>
+    <string name="mode_before_detail">onSave(text)</string>
+    <string name="mode_after">AFTER: rememberUpdatedState</string>
+    <string name="mode_after_detail">save(latest)</string>
+    <string name="editor_label">Your postcard</string>
+    <string name="saved_title">Saved copy</string>
+    <string name="saved_none">Nothing saved yet</string>
+    <string name="saved_empty">(empty)</string>
+    <string name="save_count">Saves: %1$d</string>
+</resources>
